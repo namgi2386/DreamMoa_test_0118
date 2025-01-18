@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 기본 설정 */
+
+/* 테마 전환 애니메이션 */
+@layer base {
+  * {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+/* transition-all: 모든 속성에 대한 전환 효과 적용
+duration-300: 전환 시간을 300ms로 증가
+ease-in-out: 부드러운 가속/감속 효과 추가 */
